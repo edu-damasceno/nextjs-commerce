@@ -13,7 +13,7 @@ export default function LogoSquare({ size }: { size?: 'sm' | undefined }) {
       )}
     >
       <Image
-        src="/icons/mahalo-brownie-icon.svg"
+        src="/icons/mahalo-brownie-icon.png"
         alt="Mahalo Brownie"
         className={clsx({
           'h-[16px] w-[16px]': !size,
